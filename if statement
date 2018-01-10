@@ -1,0 +1,19 @@
+package com.corejava;
+
+public class weekday {
+
+	public static void main(String[] args) {
+		
+		String[] weekday=new String[] {"Monday","Tuesday","Wednesday","Thursday","Friday"};
+		String []Weekend=new String[] {"Saturday","Sunday"};
+		String day="Monday";
+		if(!(day = weekday))
+		{
+			System.out.println("Working day");
+		}
+		else {
+			System.out.println("Weekend");
+		}
+	}
+
+}
